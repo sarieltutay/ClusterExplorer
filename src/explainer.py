@@ -1,12 +1,8 @@
-import pandas as pd
-import numpy as np
-from concurrent.futures import ThreadPoolExecutor, as_completed
-
 from sklearn.preprocessing import OneHotEncoder
 import gFIM
-from AnalyzeItemsets import Analyze
+from src.AnalyzeItemsets import Analyze
 from utils import *
-from binning_methods import *
+from src.binning_methods import *
 
 
 class Explainer:
