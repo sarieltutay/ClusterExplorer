@@ -51,9 +51,6 @@ To use this, you need to provide the datasets folder (first save the datasets in
 ### Running the Experiments
 For running the experiments (located in [`ClusterExplorer/experiments`](https://github.com/yourusername/ClusterExplorer/blob/main/experiments)), you need to provide the folder of the pipelines result for [`BaselinesExperiment.py`](https://github.com/yourusername/ClusterExplorer/blob/main/experiments/BaselinesExperiment.py). The results will be saved in [`ClusterExplorer/experiments`]([https://github.com/yourusername/ClusterExplorer/blob/ma](https://github.com/yourusername/ClusterExplorer/blob/main/experiments))
 
-### Running the Experiments
-For running the experiments (located in [`ClusterExplorer/experiments`](https://github.com/yourusername/ClusterExplorer/blob/main/experiments)), you need to provide the folder of the pipelines result for [`BaselinesExperiment.py`](https://github.com/yourusername/ClusterExplorer/blob/main/experiments/BaselinesExperiment.py). The results will be saved in [`ClusterExplorer/experiments`]([https://github.com/yourusername/ClusterExplorer/blob/ma](https://github.com/yourusername/ClusterExplorer/blob/main/experiments))
-
 ## Additional Experiments
 This folder contains information about our attribute-selection optimization on both the explanation quality and running times.
 For running the experiments (located in [`ClusterExplorer/additional_experiments`](https://github.com/yourusername/ClusterExplorer/blob/main/additional_experiments)), you need to provide the folder of the pipelines result for [`P_ValueExperiment.py`](https://github.com/yourusername/ClusterExplorer/blob/main/additional_experiments/P_ValueExperiment.py). The results will be saved in [`ClusterExplorer/additional_experiments`]([https://github.com/yourusername/ClusterExplorer/blob/ma](https://github.com/yourusername/ClusterExplorer/blob/main/additional_experiments))
