@@ -15,17 +15,13 @@ The source code is located here (ClusterExplorer/src):
 ## Source Code
 The source code is located in the [`ClusterExplorer/src`](https://github.com/sarieltutay/ClusterExplorer/blob/main/src) directory. This directory contains the following key components:
 
-1. **Explainer**:[`explainer.py`](https://github.com/sarieltutay/ClusterExplorer/blob/main/src/explainer.py)
-   - Generates rule-based explanations for each cluster using frequent-itemsets mining.
+1. **Explainer**:[`explainer.py`](https://github.com/sarieltutay/ClusterExplorer/blob/main/src/explainer.py) Generates rule-based explanations for each cluster using frequent-itemsets mining.
 
-2. **Frequent Itemset Mining**:[`gFIM.py`](https://github.com/sarieltutay/ClusterExplorer/blob/main/src/gFIM.py)
-   - Contains methods for frequent itemset mining..
+2. **Frequent Itemset Mining**:[`gFIM.py`](https://github.com/sarieltutay/ClusterExplorer/blob/main/src/gFIM.py) Contains methods for frequent itemset mining..
 
-3. **Clustering Rule Evaluation**:[`ScoreMetrics.py`](https://github.com/sarieltutay/ClusterExplorer/blob/main/src/ScoreMetrics.py) [`AnalyzeItemsets.py`](https://github.com/sarieltutay/ClusterExplorer/blob/main/src/AnalyzeItemsets.py)
-   - Provides methods to evaluate and summarize the quality of clustering rules based on metrics such as separation error, coverage, and conciseness.
+3. **Clustering Rule Evaluation**:[`ScoreMetrics.py`](https://github.com/sarieltutay/ClusterExplorer/blob/main/src/ScoreMetrics.py) [`AnalyzeItemsets.py`](https://github.com/sarieltutay/ClusterExplorer/blob/main/src/AnalyzeItemsets.py) Provides methods to evaluate and summarize the quality of clustering rules based on metrics such as separation error, coverage, and conciseness.
 
-4. **Binning Methods**:[`binning_methods.py`](https://github.com/yourusername/ClusterExplorer/blob/main/src/binning_methods.py)
-   - Contains methods for binning numeric attributes, including equal width, equal frequency, decision tree-based, and multiclass optimal binning techniques.
+4. **Binning Methods**:[`binning_methods.py`](https://github.com/yourusername/ClusterExplorer/blob/main/src/binning_methods.py) Contains methods for binning numeric attributes, including equal width, equal frequency, decision tree-based, and multiclass optimal binning techniques.
 
 
 
