@@ -44,7 +44,16 @@ The datasets used in the experiments include:
 | Taxi Trajectory                         | 1,710,670  | 9              | [Link](https://archive.ics.uci.edu/ml/datasets/Taxi+Service+Trajectory+-+Prediction+Challenge%2C+ECML+PKDD+2015) |
 
 ### Clustering Pipelines
-The clustering results were generated using 16 different clustering pipelines, each combining various preprocessing steps and clustering algorithms (are located in [clustering_pipelines.py](https://github.com/yourusername/ClusterExplorer/blob/main/experiments/clustering_pipelines.py)). The preprocessing steps included standard scaling for numeric columns, one-hot encoding for categorical data, and dimensionality reduction using PCA. The clustering algorithms used were K-Means, DBSCAN, Birch, Spectral Clustering, and Affinity Propagation.
+The clustering results were generated using 16 different clustering pipelines, each combining various preprocessing steps and clustering algorithms (are located in [`clustering_pipelines.py`](https://github.com/yourusername/ClusterExplorer/blob/main/experiments/clustering_pipelines.py)). The preprocessing steps included standard scaling for numeric columns, one-hot encoding for categorical data, and dimensionality reduction using PCA. The clustering algorithms used were K-Means, DBSCAN, Birch, Spectral Clustering, and Affinity Propagation.
+
+To use this, you need to provide the datasets folder (first save the datasets in this folder) and the folder to save the pipelines results.
+
+### Running the Experiments
+For running the experiments (located in [`ClusterExplorer/experiments`](https://github.com/yourusername/ClusterExplorer/blob/main/experiments)), you need to provide the folder of the pipelines result for [`BaselinesExperiment.py`](https://github.com/yourusername/ClusterExplorer/blob/main/experiments/BaselinesExperiment.py). The results will be saved in [`ClusterExplorer/experiments`](https://github.com/yourusername/ClusterExplorer/blob/ma
+
+
+
+
 
 
 
