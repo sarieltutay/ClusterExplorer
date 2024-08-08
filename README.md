@@ -17,11 +17,11 @@ The source code is located in the [`ClusterExplorer/src`](https://github.com/sar
 
 1. **Explainer**:
    - File: [`explainer.py`](https://github.com/yourusername/ClusterExplorer/blob/main/src/explainer.py)
-   - Functionality: Generates rule-based explanations for each cluster using various binning methods and SHAP values to analyze feature importance.
+   - Functionality: Generates rule-based explanations for each cluster using frequent-itemsets mining.
 
 2. **Frequent Itemset Mining**:
    - File: [`gFIM.py`](https://github.com/yourusername/ClusterExplorer/blob/main/src/gFIM.py)
-   - Functionality: Implements algorithms related to itemsets, including the Apriori algorithm for generating frequent itemsets from transactions using efficient support counting and pruning techniques.
+   - Functionality: Contains methods for frequent itemset mining..
 
 3. **Clustering Rule Evaluation**:
    - File: [`ScoreMetrics.py`](https://github.com/yourusername/ClusterExplorer/blob/main/src/ScoreMetrics.py)
