@@ -44,16 +44,16 @@ The datasets used in the experiments include:
 | Taxi Trajectory                         | 1,710,670  | 9              | [Link](https://archive.ics.uci.edu/dataset/339/taxi+service+trajectory+prediction+challenge+ecml+pkdd+2015) |
 
 ### Clustering Pipelines
-The clustering results were generated using 16 different clustering pipelines, each combining various preprocessing steps and clustering algorithms (are located in [`clustering_pipelines.py`](https://github.com/yourusername/ClusterExplorer/blob/main/experiments/clustering_pipelines.py)). The preprocessing steps included standard scaling for numeric columns, one-hot encoding for categorical data, and dimensionality reduction using PCA. The clustering algorithms used were K-Means, DBSCAN, Birch, Spectral Clustering, and Affinity Propagation.
+The clustering results were generated using 16 different clustering pipelines, each combining various preprocessing steps and clustering algorithms (are located in [`clustering_pipelines.py`](https://github.com/sarieltutay/ClusterExplorer/blob/main/experiments/clustering_pipelines.py)). The preprocessing steps included standard scaling for numeric columns, one-hot encoding for categorical data, and dimensionality reduction using PCA. The clustering algorithms used were K-Means, DBSCAN, Birch, Spectral Clustering, and Affinity Propagation.
 
 To use this, you need to provide the datasets folder (first save the datasets in this folder) and the folder to save the pipelines results.
 
 ### Running the Experiments
-For running the experiments (located in [`ClusterExplorer/experiments`](https://github.com/yourusername/ClusterExplorer/blob/main/experiments)), you need to provide the folder of the pipelines result for [`BaselinesExperiment.py`](https://github.com/yourusername/ClusterExplorer/blob/main/experiments/BaselinesExperiment.py). The results will be saved in [`ClusterExplorer/experiments`]([https://github.com/yourusername/ClusterExplorer/blob/ma](https://github.com/yourusername/ClusterExplorer/blob/main/experiments))
+For running the experiments (located in [`ClusterExplorer/experiments`](https://github.com/sarieltutay/ClusterExplorer/blob/main/experiments)), you need to provide the folder of the pipelines result for [`BaselinesExperiment.py`](https://github.com/sarieltutay/ClusterExplorer/blob/main/experiments/BaselinesExperiment.py). The results will be saved in [`ClusterExplorer/experiments`]([https://github.com/sarieltutay/ClusterExplorer/blob/main/experiments))
 
 ## Additional Experiments
 This folder contains information about our attribute-selection optimization on both the explanation quality and running times.
-For running the experiments (located in [`ClusterExplorer/additional_experiments`](https://github.com/yourusername/ClusterExplorer/blob/main/additional_experiments)), you need to provide the folder of the pipelines result for [`P_ValueExperiment.py`](https://github.com/yourusername/ClusterExplorer/blob/main/additional_experiments/P_ValueExperiment.py). The results will be saved in [`ClusterExplorer/additional_experiments`]([https://github.com/yourusername/ClusterExplorer/blob/ma](https://github.com/yourusername/ClusterExplorer/blob/main/additional_experiments))
+For running the experiments (located in [`ClusterExplorer/additional_experiments`](https://github.com/sarieltutay/ClusterExplorer/blob/main/additional_experiments)), you need to provide the folder of the pipelines result for [`P_ValueExperiment.py`](https://github.com/sarieltutay/ClusterExplorer/blob/main/additional_experiments/P_ValueExperiment.py). The results will be saved in [`ClusterExplorer/additional_experiments`](https://github.com/sarieltutay/ClusterExplorer/blob/main/additional_experiments))
 
 
 
