@@ -13,14 +13,14 @@ The source code is located here (ClusterExplorer/src):
  4. Methods for binning numeric attributes, including equal width, equal frequency, decision tree-based, and multiclass optimal binning techniques.
 
 ## Source Code
-The source code is located in the [`ClusterExplorer/src`](https://github.com/sarieltutay/ClusterExplorer/edit/main/README.md) directory. This directory contains the following key components:
+The source code is located in the [`ClusterExplorer/src`](https://github.com/sarieltutay/ClusterExplorer/blob/main/src) directory. This directory contains the following key components:
 
 1. **Explainer**:
-   - File: [`explainer.py`](https://github.com/yourusername/ClusterExplorer/blob/main/src/explainer.py)
+   - File: [`explainer.py`](https://github.com/sarieltutay/ClusterExplorer/blob/main/src/explainer.py)
    - Functionality: Generates rule-based explanations for each cluster using frequent-itemsets mining.
 
 2. **Frequent Itemset Mining**:
-   - File: [`gFIM.py`](https://github.com/yourusername/ClusterExplorer/blob/main/src/gFIM.py)
+   - File: [`gFIM.py`](https://github.com/sarieltutay/ClusterExplorer/blob/main/src/gFIM.py)
    - Functionality: Contains methods for frequent itemset mining..
 
 3. **Clustering Rule Evaluation**:
