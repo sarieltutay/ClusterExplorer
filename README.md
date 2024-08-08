@@ -21,13 +21,11 @@ Cluster-Explorer was evaluated using a diverse set of 98 clustering results obta
 ### Datasets Overview
 The datasets used in the experiments include:
 
-## Experiment Datasets
-
 | **Dataset**                             | **Rows**   | **Attributes** | **Link** |
 |-----------------------------------------|------------|----------------|----------|
-| Urban Land Cover                        | 168        | 148            | [Link](https://archive.ics.uci.edu/ml/datasets/Urban+Land+Cover) |
-| DARWIN                                  | 174        | 451            | [Link](https://archive.ics.uci.edu/ml/datasets/DARWIN) |
-| Wine                                    | 178        | 13             | [Link](https://archive.ics.uci.edu/ml/datasets/wine) |
+| Urban Land Cover                        | 168        | 148            | [Link](https://archive.ics.uci.edu/dataset/295/urban+land+cover) |
+| DARWIN                                  | 174        | 451            | [Link](https://archive.ics.uci.edu/dataset/732/darwin) |
+| Wine                                    | 178        | 13             | [Link](https://archive.ics.uci.edu/dataset/186/wine+quality) |
 | Flags                                   | 194        | 30             | [Link](https://archive.ics.uci.edu/ml/datasets/Flags) |
 | Parkinson Speech                        | 1,040      | 26             | [Link](https://archive.ics.uci.edu/ml/datasets/Parkinson+Speech+Dataset+with+Multiple+Types+of+Sound+Recordings) |
 | Communities and Crime                   | 1,994      | 128            | [Link](https://archive.ics.uci.edu/ml/datasets/Communities+and+Crime) |
@@ -46,7 +44,7 @@ The datasets used in the experiments include:
 | Taxi Trajectory                         | 1,710,670  | 9              | [Link](https://archive.ics.uci.edu/ml/datasets/Taxi+Service+Trajectory+-+Prediction+Challenge%2C+ECML+PKDD+2015) |
 
 ### Clustering Pipelines
-The clustering results were generated using 16 different clustering pipelines, each combining various preprocessing steps and clustering algorithms. The preprocessing steps included standard scaling for numeric columns, one-hot encoding for categorical data, and dimensionality reduction using PCA. The clustering algorithms used were K-Means, DBSCAN, Birch, Spectral Clustering, and Affinity Propagation.
+The clustering results were generated using 16 different clustering pipelines, each combining various preprocessing steps and clustering algorithms (are located in [Link](https://github.com/yourusername/ClusterExplorer/blob/main/experiments/clustering_pipelines)) the . The preprocessing steps included standard scaling for numeric columns, one-hot encoding for categorical data, and dimensionality reduction using PCA. The clustering algorithms used were K-Means, DBSCAN, Birch, Spectral Clustering, and Affinity Propagation.
 
 
 
