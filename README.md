@@ -21,25 +21,29 @@ Cluster-Explorer was evaluated using a diverse set of 98 clustering results obta
 ### Datasets Overview
 The datasets used in the experiments include:
 
-1. **Urban Land Cover**: 168 rows, 148 attributes
-2. **DARWIN**: 174 rows, 451 attributes
-3. **Wine**: 178 rows, 13 attributes
-4. **Flags**: 194 rows, 30 attributes
-5. **Parkinson Speech**: 1,040 rows, 26 attributes
-6. **Communities and Crime**: 1,994 rows, 128 attributes
-7. **Turkiye Student Evaluation**: 5,820 rows, 33 attributes
-8. **In-vehicle Coupon Recommendation**: 12,684 rows, 23 attributes
-9. **Human Activity Recognition**: 10,299 rows, 561 attributes
-10. **Quality Assessment of Digital Colposcopies**: 30,000 rows, 23 attributes
-11. **RT-IoT2022**: 123,117 rows, 85 attributes
-12. **Gender by Name**: 147,270 rows, 4 attributes
-13. **Multivariate Gait Data**: 181,800 rows, 7 attributes
-14. **Wave Energy Converters**: 288,000 rows, 49 attributes
-15. **3D Road Network**: 434,874 rows, 4 attributes
-16. **Year Prediction MSD**: 515,345 rows, 90 attributes
-17. **Online Retail**: 1,067,371 rows, 8 attributes
-18. **MetroPT-3 Dataset**: 1,516,948 rows, 15 attributes
-19. **Taxi Trajectory**: 1,710,670 rows, 9 attributes
+## Experiment Datasets
+
+| **Dataset**                             | **Rows**   | **Attributes** | **Link** |
+|-----------------------------------------|------------|----------------|----------|
+| Urban Land Cover                        | 168        | 148            | [Link](https://archive.ics.uci.edu/ml/datasets/Urban+Land+Cover) |
+| DARWIN                                  | 174        | 451            | [Link](https://archive.ics.uci.edu/ml/datasets/DARWIN) |
+| Wine                                    | 178        | 13             | [Link](https://archive.ics.uci.edu/ml/datasets/wine) |
+| Flags                                   | 194        | 30             | [Link](https://archive.ics.uci.edu/ml/datasets/Flags) |
+| Parkinson Speech                        | 1,040      | 26             | [Link](https://archive.ics.uci.edu/ml/datasets/Parkinson+Speech+Dataset+with+Multiple+Types+of+Sound+Recordings) |
+| Communities and Crime                   | 1,994      | 128            | [Link](https://archive.ics.uci.edu/ml/datasets/Communities+and+Crime) |
+| Turkiye Student Evaluation              | 5,820      | 33             | [Link](https://archive.ics.uci.edu/ml/datasets/Turkiye+Student+Evaluation) |
+| In-vehicle Coupon Recommendation        | 12,684     | 23             | [Link](https://archive.ics.uci.edu/ml/datasets/in-vehicle+coupon+recommendation) |
+| Human Activity Recognition              | 10,299     | 561            | [Link](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) |
+| Quality Assessment of Digital Colposcopies | 30,000  | 23             | [Link](https://archive.ics.uci.edu/ml/datasets/Quality+Assessment+of+Digital+Colposcopies) |
+| RT-IoT2022                              | 123,117    | 85             | [Link](https://archive.ics.uci.edu/ml/datasets/Real-Time+IoT+Network+Intrusion+Dataset+2022) |
+| Gender by Name                          | 147,270    | 4              | [Link](https://archive.ics.uci.edu/ml/datasets/Gender+by+Name) |
+| Multivariate Gait Data                  | 181,800    | 7              | [Link](https://archive.ics.uci.edu/ml/datasets/Multivariate+Gait+Data) |
+| Wave Energy Converters                  | 288,000    | 49             | [Link](https://archive.ics.uci.edu/ml/datasets/Wave+Energy+Converters) |
+| 3D Road Network                         | 434,874    | 4              | [Link](https://archive.ics.uci.edu/ml/datasets/3D+Road+Network+%28North+Jutland%2C+Denmark%29) |
+| Year Prediction MSD                     | 515,345    | 90             | [Link](https://archive.ics.uci.edu/ml/datasets/YearPredictionMSD) |
+| Online Retail                           | 1,067,371  | 8              | [Link](https://archive.ics.uci.edu/ml/datasets/Online+Retail) |
+| MetroPT-3 Dataset                       | 1,516,948  | 15             | [Link](https://archive.ics.uci.edu/ml/datasets/MetroPT-3) |
+| Taxi Trajectory                         | 1,710,670  | 9              | [Link](https://archive.ics.uci.edu/ml/datasets/Taxi+Service+Trajectory+-+Prediction+Challenge%2C+ECML+PKDD+2015) |
 
 ### Clustering Pipelines
 The clustering results were generated using 16 different clustering pipelines, each combining various preprocessing steps and clustering algorithms. The preprocessing steps included standard scaling for numeric columns, one-hot encoding for categorical data, and dimensionality reduction using PCA. The clustering algorithms used were K-Means, DBSCAN, Birch, Spectral Clustering, and Affinity Propagation.
