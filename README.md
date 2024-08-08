@@ -55,6 +55,8 @@ For running the experiments (located in [`ClusterExplorer/experiments`](https://
 This folder contains information about our attribute-selection optimization on both the explanation quality and running times.
 For running the experiments (located in [`ClusterExplorer/additional_experiments`](https://github.com/sarieltutay/ClusterExplorer/blob/main/additional_experiments)), you need to provide the folder of the pipelines result for [`P_ValueExperiment.py`](https://github.com/sarieltutay/ClusterExplorer/blob/main/additional_experiments/P_ValueExperiment.py). The results will be saved in [`ClusterExplorer/additional_experiments`](https://github.com/sarieltutay/ClusterExplorer/blob/main/additional_experiments))
 
+## Use Cases and Examples
+An example of a simple use case is provided in the [example_notebook.ipynb](https://github.com/sarieltutay/ClusterExplorer/blob/main/example_notebook.ipynb) file. In this notebook we generate an explanation rules set from the 'Wine' dataset. For each cluster, the ClusterExplorer generates a set of rules that explain the common properties of the wine samples within that cluster. These rules help in understanding why certain samples are grouped together and what distinguishes one cluster from another.
 
 
 
