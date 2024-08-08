@@ -44,7 +44,7 @@ The datasets used in the experiments include:
 | Taxi Trajectory                         | 1,710,670  | 9              | [Link](https://archive.ics.uci.edu/ml/datasets/Taxi+Service+Trajectory+-+Prediction+Challenge%2C+ECML+PKDD+2015) |
 
 ### Clustering Pipelines
-The clustering results were generated using 16 different clustering pipelines, each combining various preprocessing steps and clustering algorithms (are located in [Link](https://github.com/yourusername/ClusterExplorer/blob/main/experiments/clustering_pipelines)) the . The preprocessing steps included standard scaling for numeric columns, one-hot encoding for categorical data, and dimensionality reduction using PCA. The clustering algorithms used were K-Means, DBSCAN, Birch, Spectral Clustering, and Affinity Propagation.
+The clustering results were generated using 16 different clustering pipelines, each combining various preprocessing steps and clustering algorithms (are located in [clustering_pipelines.py](https://github.com/yourusername/ClusterExplorer/blob/main/experiments/clustering_pipelines.py)) the . The preprocessing steps included standard scaling for numeric columns, one-hot encoding for categorical data, and dimensionality reduction using PCA. The clustering algorithms used were K-Means, DBSCAN, Birch, Spectral Clustering, and Affinity Propagation.
 
 
 
