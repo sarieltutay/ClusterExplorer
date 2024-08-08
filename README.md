@@ -49,7 +49,7 @@ The clustering results were generated using 16 different clustering pipelines, e
 To use this, you need to provide the datasets folder (first save the datasets in this folder) and the folder to save the pipelines results.
 
 ### Running the Experiments
-For running the experiments (located in [`ClusterExplorer/experiments`](https://github.com/yourusername/ClusterExplorer/blob/main/experiments)), you need to provide the folder of the pipelines result for [`BaselinesExperiment.py`](https://github.com/yourusername/ClusterExplorer/blob/main/experiments/BaselinesExperiment.py). The results will be saved in [`ClusterExplorer/experiments`](https://github.com/yourusername/ClusterExplorer/blob/ma
+For running the experiments (located in [`ClusterExplorer/experiments`](https://github.com/yourusername/ClusterExplorer/blob/main/experiments)), you need to provide the folder of the pipelines result for [`BaselinesExperiment.py`](https://github.com/yourusername/ClusterExplorer/blob/main/experiments/BaselinesExperiment.py). The results will be saved in [`ClusterExplorer/experiments`]([https://github.com/yourusername/ClusterExplorer/blob/ma](https://github.com/yourusername/ClusterExplorer/blob/main/experiments))
 
 
 
